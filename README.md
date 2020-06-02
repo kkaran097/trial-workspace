@@ -19,9 +19,9 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 ## MySQL Information
 
 `mysql> status`
-mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper\
+mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper
 
-Connection id:		5
+Connection id:		7
 Current database:	
 Current user:		root@localhost
 SSL:			Not in use
@@ -36,9 +36,10 @@ Db     characterset:	latin1
 Client characterset:	utf8
 Conn.  characterset:	utf8
 UNIX socket:		/var/run/mysqld/mysqld.sock
-Uptime:			11 hours 29 min 34 sec
+Uptime:			12 hours 9 min 26 sec
 
-Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open tables: 98  Queries per second avg: 0.000
+Threads: 1  Questions: 49  Slow queries: 0  Opens: 108  Flush tables: 1  Open tables: 101  Queries per second avg: 0.001
+
 
 `mysql> show databases;`
 | Database           |
