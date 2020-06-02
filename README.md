@@ -1,47 +1,46 @@
 ## OS Information
 
-`lsb_release -a`
-Distributor ID:	Ubuntu
-Description:	Ubuntu 18.04.4 LTS
-Release:	18.04
-Codename:	bionic
+`lsb_release -a`\
+Distributor ID:	Ubuntu\
+Description:	Ubuntu 18.04.4 LTS\
+Release:	18.04\
+Codename:	bionic\
 
-`uname -a`
+`uname -a`\
 Linux karan 4.15.0-99-generic #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 
 ## Java Information
 
-`java -version`
-java version "1.8.0_181"
-Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
-Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
+`java -version`\
+java version "1.8.0_181"\
+Java(TM) SE Runtime Environment (build 1.8.0_181-b13)\
+Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)\
 
 ## MySQL Information
 
-`mysql> status`
-mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper
+`mysql> status`\
+mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper\
+\
+Connection id:		5\
+Current database:	\
+Current user:		root@localhost\
+SSL:			Not in use\
+Current pager:		stdout\
+Using outfile:		''\
+Using delimiter:	;\
+Server version:		5.7.30-0ubuntu0.18.04.1 (Ubuntu)\
+Protocol version:	10\
+Connection:		Localhost via UNIX socket\
+Server characterset:	latin1\
+Db     characterset:	latin1\
+Client characterset:	utf8\
+Conn.  characterset:	utf8\
+UNIX socket:		/var/run/mysqld/mysqld.sock\
+Uptime:			11 hours 29 min 34 sec\
+\
+Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open tables: 98  Queries per second avg: 0.000\
 
-Connection id:		7
-Current database:	
-Current user:		root@localhost
-SSL:			Not in use
-Current pager:		stdout
-Using outfile:		''
-Using delimiter:	;
-Server version:		5.7.30-0ubuntu0.18.04.1 (Ubuntu)
-Protocol version:	10
-Connection:		Localhost via UNIX socket
-Server characterset:	latin1
-Db     characterset:	latin1
-Client characterset:	utf8
-Conn.  characterset:	utf8
-UNIX socket:		/var/run/mysqld/mysqld.sock
-Uptime:			12 hours 9 min 26 sec
-
-Threads: 1  Questions: 49  Slow queries: 0  Opens: 108  Flush tables: 1  Open tables: 101  Queries per second avg: 0.001
-
-
-`mysql> show databases;`
+`mysql> show databases;`\
 | Database           |
 |--------------------|
 | information_schema |
@@ -52,9 +51,9 @@ Threads: 1  Questions: 49  Slow queries: 0  Opens: 108  Flush tables: 1  Open ta
 
 ## Redis Information
 
-`127.0.0.1:6379> INFO`
+`127.0.0.1:6379> INFO`\
 
-# Server
+`# Server
 redis_version:5.0.8
 redis_git_sha1:00000000
 redis_git_dirty:0
@@ -192,7 +191,7 @@ used_cpu_user_children:0.000000
 cluster_enabled:0
 
 # Keyspace
-127.0.0.1:6379> 
+127.0.0.1:6379>`
 
 
 
