@@ -1,4 +1,4 @@
-#OS Information
+## OS Information
 
 `lsb_release -a`\
 Distributor ID:	Ubuntu\
@@ -9,14 +9,14 @@ Codename:	bionic\
 `uname -a`\
 Linux karan 4.15.0-99-generic #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 
-#Java Information
+## Java Information
 
 `java -version`\
 java version "1.8.0_181"
 Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 
-#MySQL Information
+## MySQL Information
 
 `mysql> status`\
 mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper\
@@ -49,7 +49,7 @@ Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open ta
 | sys                |
 | university         |
 
-#Redis Information
+## Redis Information
 
 `127.0.0.1:6379> INFO`
 # Server
