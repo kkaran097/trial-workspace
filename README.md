@@ -53,7 +53,7 @@ Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open ta
 
 `127.0.0.1:6379> INFO`\
 
-`# Server
+# Server
 redis_version:5.0.8
 redis_git_sha1:00000000
 redis_git_dirty:0
@@ -191,7 +191,7 @@ used_cpu_user_children:0.000000
 cluster_enabled:0
 
 # Keyspace
-127.0.0.1:6379>`
+127.0.0.1:6379>
 
 
 
