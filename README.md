@@ -52,6 +52,7 @@ Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open ta
 ## Redis Information
 
 `127.0.0.1:6379> INFO`
+
 # Server
 redis_version:5.0.8
 redis_git_sha1:00000000
