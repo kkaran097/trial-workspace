@@ -4,7 +4,7 @@
 Distributor ID:	Ubuntu\
 Description:	Ubuntu 18.04.4 LTS\
 Release:	18.04\
-Codename:	bionic\
+Codename:	bionic
 
 `uname -a`\
 Linux karan 4.15.0-99-generic #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
@@ -14,7 +14,7 @@ Linux karan 4.15.0-99-generic #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020 x86_6
 `java -version`\
 java version "1.8.0_181"\
 Java(TM) SE Runtime Environment (build 1.8.0_181-b13)\
-Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)\
+Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 
 ## MySQL Information
 
@@ -38,9 +38,9 @@ Conn.  characterset:	utf8\
 UNIX socket:		/var/run/mysqld/mysqld.sock\
 Uptime:			11 hours 29 min 34 sec\
 \
-Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open tables: 98  Queries per second avg: 0.000\
+Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open tables: 98  Queries per second avg: 0.000
 
-`mysql> show databases;`\
+`mysql> show databases;`
 | Database           |
 |--------------------|
 | information_schema |
@@ -51,7 +51,7 @@ Threads: 1  Questions: 10  Slow queries: 0  Opens: 105  Flush tables: 1  Open ta
 
 ## Redis Information
 
-`127.0.0.1:6379> INFO`\
+`127.0.0.1:6379> INFO`
 
 # Server
 redis_version:5.0.8
